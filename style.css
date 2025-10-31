@@ -79,6 +79,11 @@ header nav a:hover {
   border-radius: 10px;
   width: 100%;
   max-width: 250px;
+  float: left; /* geser foto ke kiri */
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 /* === ABOUT SECTION === */
@@ -87,6 +92,12 @@ header nav a:hover {
   padding: 50px 10%;
   background-color: #f0f4ff;
 }
+
+/* === WARNA TEKS BIODATA === */
+.grid-biodata div strong {
+  color: #007bff; /* warna biru utama */
+}
+
 
 .about-section h2 {
   color: #007bff;
@@ -97,6 +108,7 @@ header nav a:hover {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 15px;
   margin-top: 30px;
+  font-weight: bold;
 }
 
 .grid-biodata div {
@@ -111,6 +123,10 @@ header nav a:hover {
   padding: 50px 10%;
   background: white;
   text-align: center;
+}
+
+.portfolio-section h2 {
+  color: #007bff;
 }
 
 .grid-portfolio {
